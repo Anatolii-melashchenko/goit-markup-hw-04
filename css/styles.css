@@ -97,17 +97,12 @@ body {
 .menu-contacts {
     display: flex;
     margin-left: auto;
-    /* outline: 1px solid tomato; */
 }
 
 .menu-contacts .menu-contact-item:not(:last-child) {
     margin-right: 30px;
 }
  
-.menu-contact-item {
-    display: block;
-}
-
 .menu-nav-link {
     display: block;
     padding-top: 32px;
@@ -129,14 +124,13 @@ body {
 }
 
 .menu-contact-link {
-    /* outline: 1px solid blue; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
-    display: block;
-
+    display: inline-block;
+    padding: 5px;
 }
 
 .menu-contact-link:hover,
@@ -145,17 +139,15 @@ body {
 }
 
 .smartphone-icon {
-    /* width: 10px;
-    height: 16px; */
     margin-right: 10px;
     fill: currentColor;
+    vertical-align: middle;
 }
 
 .envelope-icon {
-    /* width: 16px;
-    height: 12px; */
     margin-right: 10px;
     fill: currentColor;
+    vertical-align: middle;
 }
 
 /* ================= /HEADER ================= */
@@ -568,7 +560,7 @@ body {
 .portfolio-list-item {
     margin-right: 27px;
     margin-bottom: 29px;
-    border: 1px solid var(--border-bottom-portfolio-color);
+    border: 1px solid var(--border-bottom-portfolio-color) ;
 }
 
 .portfolio-list-item:hover,
